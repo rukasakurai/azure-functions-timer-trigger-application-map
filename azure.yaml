@@ -1,0 +1,10 @@
+name: 
+metadata:
+  template: local
+services:
+  app:
+    project: ./src/app
+    language: python
+    host: function
+    resourceName: 
+    module: app
