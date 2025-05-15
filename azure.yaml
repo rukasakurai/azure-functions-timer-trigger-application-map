@@ -7,5 +7,5 @@ services:
     project: ./src/app
     language: python
     host: function
-    resourceName: func-timer-app-map
+    resourceName: func-timer-app-map-${AZURE_ENV_NAME}
     module: app
