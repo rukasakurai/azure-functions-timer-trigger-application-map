@@ -1,4 +1,5 @@
-name: 
+# filepath: c:\Users\rusakura\code\github.com\rusakurai\azure-functions-timer-trigger-application-map\azure.yaml
+name: azure-functions-timer-trigger-application-map
 metadata:
   template: local
 services:
@@ -6,5 +7,5 @@ services:
     project: ./src/app
     language: python
     host: function
-    resourceName: 
+    resourceName: func-timer-app-map
     module: app
